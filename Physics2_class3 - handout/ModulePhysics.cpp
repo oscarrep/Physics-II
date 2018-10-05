@@ -278,7 +278,14 @@ int PhysBody::RayCast(int x1, int y1, int x2, int y2, float& normal_x, float& no
 	// TODO 2: Write code to test a ray cast between both points provided. If not hit return -1
 	// if hit, fill normal_x and normal_y and return the distance between x1,y1 and its colliding point
 	int ret = -1;
+	for (b2Fixture* f = body->GetFixtureList(); f; f=f->GetNext())
+	{
+		b2Shape* shape = f->GetShape();
+		shape->RayCast(output, body->GetTransform());
 
+	}
+
+	//output.fraction;
 	return ret;
 }
 
