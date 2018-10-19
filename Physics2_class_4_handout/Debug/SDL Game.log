@@ -1,0 +1,10 @@
+﻿  ModulePhysics.cpp
+c:\users\oscarrp4\desktop\physics2_class_4_handout\modulephysics.cpp(41): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\users\oscarrp4\desktop\physics2_class_4_handout\modulephysics.cpp(122): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\oscarrp4\desktop\physics2_class_4_handout\modulephysics.cpp(123): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\oscarrp4\desktop\physics2_class_4_handout\modulephysics.cpp(166): warning C4018: '<': signed/unsigned mismatch
+c:\users\oscarrp4\desktop\physics2_class_4_handout\modulephysics.cpp(292): warning C4244: 'argument': conversion from 'const float32' to 'int', possible loss of data
+c:\users\oscarrp4\desktop\physics2_class_4_handout\modulephysics.cpp(370): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+c:\users\oscarrp4\desktop\physics2_class_4_handout\modulephysics.cpp(371): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+c:\users\oscarrp4\desktop\physics2_class_4_handout\modulephysics.cpp(377): warning C4244: 'return': conversion from 'float32' to 'int', possible loss of data
+  SDL Game.vcxproj -> C:\Users\oscarrp4\Desktop\Physics2_class_4_handout\Debug\2D Physics - class 4.exe
