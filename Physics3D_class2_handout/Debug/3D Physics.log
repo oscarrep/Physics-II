@@ -1,0 +1,40 @@
+﻿  Application.cpp
+c:\users\oscarrp4\desktop\physics3d_class2_handout\application.cpp(11): warning C4316: 'ModulePhysics3D': object allocated on the heap may not be aligned 16
+  Color.cpp
+  glmath.cpp
+c:\users\oscarrp4\desktop\physics3d_class2_handout\glmath.cpp(12): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\users\oscarrp4\desktop\physics3d_class2_handout\glmath.cpp(27): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\oscarrp4\desktop\physics3d_class2_handout\glmath.cpp(43): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\oscarrp4\desktop\physics3d_class2_handout\glmath.cpp(53): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\oscarrp4\desktop\physics3d_class2_handout\glmath.cpp(72): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\users\oscarrp4\desktop\physics3d_class2_handout\glmath.cpp(87): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\oscarrp4\desktop\physics3d_class2_handout\glmath.cpp(103): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\oscarrp4\desktop\physics3d_class2_handout\glmath.cpp(600): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\oscarrp4\desktop\physics3d_class2_handout\glmath.cpp(618): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\oscarrp4\desktop\physics3d_class2_handout\glmath.cpp(758): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\oscarrp4\desktop\physics3d_class2_handout\glmath.cpp(778): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  Light.cpp
+  log.cpp
+  Main.cpp
+  ModuleAudio.cpp
+  ModuleCamera3D.cpp
+  ModuleInput.cpp
+  ModulePhysics3D.cpp
+c:\users\oscarrp4\desktop\physics3d_class2_handout\modulephysics3d.cpp(44): warning C4150: deletion of pointer to incomplete type 'DebugDrawer'; no destructor called
+  c:\users\oscarrp4\desktop\physics3d_class2_handout\modulephysics3d.h(10): note: see declaration of 'DebugDrawer'
+  ModuleRenderer3D.cpp
+  ModuleSceneIntro.cpp
+  ModuleWindow.cpp
+  Primitive.cpp
+  Timer.cpp
+  Generating Code...
+ModulePhysics3D.obj : error LNK2019: unresolved external symbol "void * __cdecl btAlignedAllocInternal(unsigned int,int)" (?btAlignedAllocInternal@@YAPAXIH@Z) referenced in function "public: static void * __cdecl btBoxShape::operator new(unsigned int)" (??2btBoxShape@@SAPAXI@Z)
+ModulePhysics3D.obj : error LNK2019: unresolved external symbol "void __cdecl btAlignedFreeInternal(void *)" (?btAlignedFreeInternal@@YAXPAX@Z) referenced in function "public: static void __cdecl btDefaultMotionState::operator delete(void *)" (??3btDefaultMotionState@@SAXPAX@Z)
+ModulePhysics3D.obj : error LNK2019: unresolved external symbol "public: __thiscall btCollisionDispatcher::btCollisionDispatcher(class btCollisionConfiguration *)" (??0btCollisionDispatcher@@QAE@PAVbtCollisionConfiguration@@@Z) referenced in function "public: __thiscall ModulePhysics3D::ModulePhysics3D(class Application *,bool)" (??0ModulePhysics3D@@QAE@PAVApplication@@_N@Z)
+ModulePhysics3D.obj : error LNK2019: unresolved external symbol "public: __thiscall btBoxShape::btBoxShape(class btVector3 const &)" (??0btBoxShape@@QAE@ABVbtVector3@@@Z) referenced in function "public: virtual bool __thiscall ModulePhysics3D::Start(void)" (?Start@ModulePhysics3D@@UAE_NXZ)
+ModulePhysics3D.obj : error LNK2019: unresolved external symbol "public: __thiscall btDefaultCollisionConfiguration::btDefaultCollisionConfiguration(struct btDefaultCollisionConstructionInfo const &)" (??0btDefaultCollisionConfiguration@@QAE@ABUbtDefaultCollisionConstructionInfo@@@Z) referenced in function "public: __thiscall ModulePhysics3D::ModulePhysics3D(class Application *,bool)" (??0ModulePhysics3D@@QAE@PAVApplication@@_N@Z)
+ModulePhysics3D.obj : error LNK2019: unresolved external symbol "public: __thiscall btDbvtBroadphase::btDbvtBroadphase(class btOverlappingPairCache *)" (??0btDbvtBroadphase@@QAE@PAVbtOverlappingPairCache@@@Z) referenced in function "public: __thiscall ModulePhysics3D::ModulePhysics3D(class Application *,bool)" (??0ModulePhysics3D@@QAE@PAVApplication@@_N@Z)
+ModulePhysics3D.obj : error LNK2019: unresolved external symbol "public: __thiscall btDiscreteDynamicsWorld::btDiscreteDynamicsWorld(class btDispatcher *,class btBroadphaseInterface *,class btConstraintSolver *,class btCollisionConfiguration *)" (??0btDiscreteDynamicsWorld@@QAE@PAVbtDispatcher@@PAVbtBroadphaseInterface@@PAVbtConstraintSolver@@PAVbtCollisionConfiguration@@@Z) referenced in function "public: virtual bool __thiscall ModulePhysics3D::Start(void)" (?Start@ModulePhysics3D@@UAE_NXZ)
+ModulePhysics3D.obj : error LNK2019: unresolved external symbol "public: __thiscall btRigidBody::btRigidBody(struct btRigidBody::btRigidBodyConstructionInfo const &)" (??0btRigidBody@@QAE@ABUbtRigidBodyConstructionInfo@0@@Z) referenced in function "public: virtual bool __thiscall ModulePhysics3D::Start(void)" (?Start@ModulePhysics3D@@UAE_NXZ)
+ModulePhysics3D.obj : error LNK2019: unresolved external symbol "public: __thiscall btSequentialImpulseConstraintSolver::btSequentialImpulseConstraintSolver(void)" (??0btSequentialImpulseConstraintSolver@@QAE@XZ) referenced in function "public: __thiscall ModulePhysics3D::ModulePhysics3D(class Application *,bool)" (??0ModulePhysics3D@@QAE@PAVApplication@@_N@Z)
+C:\Users\oscarrp4\Desktop\Physics3D_class2_handout\Debug\3D Physics - class2 Handout.exe : fatal error LNK1120: 9 unresolved externals
